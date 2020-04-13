@@ -28,7 +28,7 @@
     NSInteger sum = [ArrayCalculator maxProductOf:3 itemsFromArray:@[@-100, @50, @30, @20, @40, @-1]];
     XCTAssertEqual(sum, 60000); // 50 * 30 * 40
 }
-
+//-100 50 40 30 20 -1
 
 - (void)test5 {
     NSInteger sum = [ArrayCalculator maxProductOf:3 itemsFromArray:@[@"1", @"2", @"3"]];
